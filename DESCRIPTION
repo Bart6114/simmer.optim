@@ -8,12 +8,14 @@ Authors@R: c(
 Description: A set of optimization functions for variable optimization in simmer simulations.
 License: MIT + file LICENSE
 LazyData: TRUE
-RoxygenNote: 5.0.1
+Encoding: UTF-8
+URL: http://r-simmer.org,
+    https://github.com/r-simmer/simmer.optim
+BugReports: https://github.com/r-simmer/simmer.optim/issues
 Depends:
-    R (>= 3.1.2)
+    R (>= 3.1.2),
+    simmer (>= 3.2.0)
 Imports:
-    simmer (>= 3.2.0),
-    magrittr,
     dplyr,
     tidyr,
     methods,
@@ -25,4 +27,5 @@ Suggests:
     testthat,
     RcppDE,
     GenSA
+RoxygenNote: 5.0.1
 VignetteBuilder: knitr
